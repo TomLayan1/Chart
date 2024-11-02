@@ -1,4 +1,9 @@
-export interface BarDataType {
-  x: number,
-  y: number
+export interface BarType {
+  brand: string;
+  stock: number
+}
+
+export interface BartDataType {
+  subject: string;
+  score: number
 }
